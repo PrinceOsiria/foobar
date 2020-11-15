@@ -1,13 +1,21 @@
 # foobar
+2020 - Tyler Pryjda
 
-## Re-ID
+## Solar-Doomsday (Challange 0)
+Notes:
+
+I completed this challange when I was still in High School. I was designing Hel's Keyhole, which
+is an encryption program which eventually evolved into Project 107 and 108. This challange
+wasn't particularly difficult, and I remember enjoying it.
+
+## Re-ID (Challange 1)
 Notes:
 
 This challange was easy, so I somewhat over-engineered it. I adapted a previous piece of code
 that I had written (The prime miner) and used it to assign IDs as requested. The entire code was
 formatted into a module, with additional options for debugging and testing inputs included
 
-## Lovely Lucky Lambs
+## Lovely Lucky Lambs (Challange 2)
 Notes:
 
 Day 1: Completed the initial code logic. Returns are all valid looking.
