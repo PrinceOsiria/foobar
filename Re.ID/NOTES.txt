@@ -1,0 +1,11 @@
+Hello, World!
+
+Maybe I went a little overboard with this one, but I think from a scalable  standpoint, if Commander Lambda wanted to, 
+she could compile a csv of indices, parse it, generate IDs, assign them names from the csv, attach names and ids to a dictionary, and export the dictionary as a csv
+This approach would be ideal if she used google forms to generate the csv, sending the form to all of her minions
+
+ID Generation is based on a previous script of mine, namely "Prime Miner". The original script returns a list of all primes within 0:arg, while the modified version returns arg primes
+
+Thanks for reading!
+
+Tyler Pryjda
