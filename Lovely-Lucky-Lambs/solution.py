@@ -7,14 +7,14 @@ def solution(lambs):
 	## Generous Method - More lambs per employee, less employees included
 	number = minimum
 	while sum(generous) + number <= lambs: 
-		if (number!=minimum) and number>=sum(generous[-2:number]) and number==sum(generous[-1:number])*2:
+		if (number!=minimum) and number>=sum(generous[-2:]) and number==sum(generous[-1:])*2:
 			generous.append(number)
 		number += 1
 
 	## Stingy Method - Less lambs per employee, more employees included
 	number = minimum
 	while sum(stingy) + number <= lambs: 
-		if number>=sum(stingy[-2:number]) and number<=sum(stingy[-1:number])*2:
+		if number>=sum(stingy[-2:]) and number<=sum(stingy[-1:])*2:
 			stingy.append(number)
 		number += 1
 
